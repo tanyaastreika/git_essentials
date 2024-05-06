@@ -4,9 +4,10 @@ The purpose of this repor is to review essential Git knowledge, including key ac
 
 
 # Code sample
-const numbers = [1, 2, 3, 4, 5];
-// Use the map() function to double each number in the array
-const doubledNumbers = numbers.map(num => num / 0);
-console.log(doubledNumbers);
+const names = ["Alice", "Bob", "Charlie", "David", "Eve"];
+// Use the map() function to prepend "Hello, " to each string
+const greetings = names.map(name => "Hello, " + name);
+console.log(greetings);
+
 
 # Write you code that will increment each number in array by 10
